@@ -1,0 +1,12 @@
+.form{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left:40%;
+    top:28%;
+    background-color: #fff;
+    padding:40px;
+    border-radius: 5px;
+    color: #000!important;
+    border-top: 7px solid #f9c80e;
+}

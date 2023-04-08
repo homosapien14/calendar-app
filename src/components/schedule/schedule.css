@@ -1,0 +1,99 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr repeat(6, calc((100vh - 10rem) / 6));
+  gap: 1px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  margin: 1rem auto;
+  overflow: hidden;
+  max-width: 80vw;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.calendar-header h2 {
+  margin: 0;
+}
+
+.calendar-header button {
+  border: none;
+  background-color: #f9c80e;
+  cursor: pointer;
+}
+.calendar-header button:hover{
+  background-color: #dcad05;
+  
+}
+.calendar-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, calc((100vh - 10rem) / 6));
+  gap: 1px;
+  overflow: hidden;
+}
+
+.calendar-day {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow: hidden;
+}
+
+.calendar-day-header {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.task-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.task-card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.task-card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-card-type {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.task-card-duration {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.task-cards-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* for extra small devices */
+}
+
+@media only screen and (min-width: 768px) {
+  .task-cards-container {
+    grid-template-columns: repeat(3, 1fr); /* for medium sized devices */
+  }
+}
