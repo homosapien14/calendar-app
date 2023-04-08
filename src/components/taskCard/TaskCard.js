@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import moment from "moment";
 import "./taskCard.css";
-import { Card, Col, ListGroup, Row } from "react-bootstrap";
+import { Card,  ListGroup } from "react-bootstrap";
 
 const TaskCard = ({ tasks, date }) => {
   const [showAll, setShowAll] = useState(false);
