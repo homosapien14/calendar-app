@@ -2,6 +2,18 @@
 
 It schedule the tasks on the basis of time-per-day committed by user.
 
+### Images:
+
+#### Enroll page:
+
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/76989674/230729232-10daf839-851c-4e37-bfff-ba6d59e38584.png">
+
+#### Schedule page:
+(you can change the month using prev/next button, accordingly it will populate that month task by Day(Excluding Weekends))
+
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/76989674/230729335-bf5b4444-ab71-4b67-907c-13108a1669ae.png">
+
+
 ### How to start it?
 
 Start the backend first.
