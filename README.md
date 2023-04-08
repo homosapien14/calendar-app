@@ -1,6 +1,6 @@
 # Getting Started with Calendar-App
 
-It schedule the tasks on the basis of time-per-day committed by user.
+It is full stack App that schedule the tasks on the basis of time-per-day committed by user.
 
 ### Images:
 
